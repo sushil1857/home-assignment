@@ -1,0 +1,59 @@
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.table,
+th,
+td {
+  border: none;
+}
+
+table tr td {
+  cursor: pointer;
+}
+
+.rowActive{
+background: #fff;
+}
+
+.currencyTable {
+  width: 90%;
+  background-color: #090c1f;
+  border-collapse: collapse;
+  font-size: 15px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  overflow: hidden;
+  color: red;
+  margin-top: 63px;
+}
+
+.currencyTable td {
+  padding: 15px;
+}
+
+.currencyTable th {
+  padding: 20px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.currencyTable td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+p {
+  text-align: left;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+p a {
+  font-weight: 500;
+  color: white;
+}
